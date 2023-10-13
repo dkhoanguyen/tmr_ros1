@@ -61,8 +61,18 @@ class ImageServer(object):
             self._data_available = True
 
         result = {
-            "result": "status",
-            "message": "im ok"
+            "annotations": [
+                {
+                    "box_cx": 0,
+                    "box_cy":1,
+                    "box_h":1,
+                    "box_w":1,
+                    "label":"apple",
+                    "rotation":0,
+                    "score":100
+                }
+            ],
+            "message": "success"
         }
         return jsonify(result)
 

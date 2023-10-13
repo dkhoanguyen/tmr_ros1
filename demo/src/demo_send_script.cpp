@@ -11,8 +11,10 @@
 
 int main(int argc, char **argv)
 {    
-  std::string cmd = "PTP(\"JPP\",0,0,90,0,90,0,35,200,0,false)";
+  // std::string cmd = "PTP(\"JPP\",0,0,0,0,0,0,35,100,0,false)";
 
+  std::string cmd = "ContinueVJog()";
+  // std::string cmd = "SetContinueVJog(20,0,0,0,0,0)";
   ros::init(argc, argv, "demo_send_script");      
   ros::NodeHandle nh_demo; 
   ros::ServiceClient client = nh_demo.serviceClient<tm_msgs::SendScript>("tm_driver/send_script");
