@@ -8,18 +8,93 @@ Techman Robot is a state-of-the-art production tool that is highly compatible an
 
 This driver is for <u>**ROS1 Noetic**</u> version.<br/>
 To use the driver, make sure your ROS PC is installed correctly.<br/>
-If the user wants to know how to use the ROS2 driver, please visit the [TM ROS2 driver](https://github.com/TechmanRobotInc/tmr_ros2) website or directly click the __TM ROS driver version__ listed in the table below.<br/>
+If the user wants to know how to use the ROS2 driver, please visit the [TM ROS2 driver](https://github.com/TechmanRobotInc/tmr_ros2) website or directly click on the listed `Github repo: TM App Release` below ROS2 projects in the table.<br/>
 
 
 More information: TM ROS driver support list
-|ROS Distro (ROS Environment Setup)|TM ROS driver version|TM ROS Vision|Remark: switch GitHub branches|
-|:---|:---|:---:|:---:|
-|[**<font color=#808080>ROS Noetic Ninjemys**](http://wiki.ros.org/noetic)|[**<font color=#800000>TM ROS1 Noetic driver**](https://github.com/TechmanRobotInc/tmr_ros1/tree/noetic)|supported|noetic|
-|[**<font color=#808080>ROS Melodic Morenia**](http://wiki.ros.org/melodic)|[**<font color=#800000>TM ROS1 Melodic driver**](https://github.com/TechmanRobotInc/tmr_ros1/)|x|master|
-|[**<font color=#808080>ROS 2 Foxy Fitzroy**](https://index.ros.org/doc/ros2/Releases/Release-Foxy-Fitzroy/)|[**<font color=#0000FF>TM ROS2 Foxy driver**](https://github.com/TechmanRobotInc/tmr_ros2)|supported|master|
-|[**<font color=#808080>ROS 2 Dashing Diademata**](https://index.ros.org/doc/ros2/Releases/Release-Dashing-Diademata/)|[**<font color=#0000FF>TM ROS2 Dashing driver**](https://github.com/TechmanRobotInc/tmr_ros2/tree/dashing-devel)|supported|dashing-devel|
+<table>
+<head>
+</head>
+    <tr>
+        <th colspan="5">TMflow + TM Robot Series </th>
+    </tr>
+    <tr>
+        <th>ROS Distro</th>
+        <th>GitHub repo: TM App Release</th>
+        <th>TM ROS Driver</th>
+        <th>TMvision Support</th>
+        <th>GitHub Branch</th>
+    </tr>
+    <tr>
+        <td><a href="http://wiki.ros.org/melodic">ROS Melodic Morenia</a></td>
+        <td><a href="https://github.com/TechmanRobotInc/tmr_ros1/">TM ROS1 Melodic</a></td>
+        <th>&#9711;</th>
+        <th>&#10005;&nbsp</th>
+        <th>melodic</th>
+    </tr>
+    <tr>
+        <td><a href="http://wiki.ros.org/noetic">ROS Noetic Ninjemys</a></td>
+        <td><a href="https://github.com/TechmanRobotInc/tmr_ros1/tree/noetic">TM ROS1 Noetic</a></td>
+        <th>&#9711;</th>
+        <th>&#9711;</th>
+        <th>noetic</th>
+    </tr>
+    <tr>
+        <td><a href="https://index.ros.org/doc/ros2/Releases/Release-Dashing-Diademata/">ROS 2 Dashing Diademata</a></td>
+        <td><a href="https://github.com/TechmanRobotInc/tmr_ros2/tree/dashing">TM ROS2 Dashing</a></td>
+        <th>&#9711;</th>
+        <th>&#9711;</th>
+        <th>dashing</th>
+    </tr>
+    <tr>
+        <td><a href="https://index.ros.org/doc/ros2/Releases/Release-Foxy-Fitzroy/">ROS 2 Foxy Fitzroy</a></td>
+        <td><a href="https://github.com/TechmanRobotInc/tmr_ros2">TM ROS2 Foxy</a></td>
+        <th>&#9711;</th>
+        <th>&#9711;</th>
+        <th>foxy</th>
+    </tr>
+    <tr>
+        <td><a href="https://docs.ros.org/en/humble/index.html">ROS 2 Humble Hawksbill</a></td>
+        <td><a href="https://github.com/TechmanRobotInc/tmr_ros2/tree/humble">TM ROS2 Humble</a></td>
+        <th>&#9711;</th>
+        <th>&#9711;</th>
+        <th>humble</th>
+    </tr>
+    <tr>
+        <th colspan="5">TMflow 2 + TM AI Cobot S-Series </th>
+    </tr>
+    <tr>
+        <th>ROS Distro</th>
+        <th>GitHub repo: TM 2 App Release</th>
+        <th>TM ROS Driver</th>
+        <th>TMvision Support</th>
+        <th>GitHub Branch</th>
+    </tr>
+    <tr>
+        <td><a href="http://wiki.ros.org/noetic">ROS Noetic Ninjemys</a></td>
+        <td><a href="https://github.com/TechmanRobotInc/tm2_ros1">TM2 ROS1 Noetic</a></td>
+        <th>&#9711;</th>
+        <th>&#9711;</th>
+        <th>noetic</th>
+    </tr>
+    <tr>
+        <td><a href="https://index.ros.org/doc/ros2/Releases/Release-Foxy-Fitzroy/">ROS 2 Foxy Fitzroy</a></td>
+        <td><a href="https://github.com/TechmanRobotInc/tm2_ros2">TM2 ROS2 Foxy</a></td>
+        <th>&#9711;</th>
+        <th>&#9711;</th>
+        <th>foxy</th>
+    </tr>
+    <tr>
+        <td><a href="https://docs.ros.org/en/humble/index.html">ROS 2 Humble Hawksbill</a></td>
+        <td><a href="https://github.com/TechmanRobotInc/tm2_ros2/tree/humble">TM2 ROS2 Humble</a></td>
+        <th>&#9711;</th>
+        <th>&#9711;</th>
+        <th>humble</th>
+    </tr>
+</table>
 
-**Note**: The two current master branches are ROS1 Melodic and ROS2 Foxy.<br/>
+
+Note: The `Github repo: TM 2 App Release` applies to TMflow Version 2.14 or above and adapts to HW5.0 mainly.<br/>
 
 
 ### __ROS1 Driver__
@@ -159,11 +234,11 @@ The user can manually click the `Data Table Setting` <sup>2</sup> item and check
 > Then, run the driver to maintain the connection with TM Robot by typing 
 >
 >```bash
-> rosrun tm_driver tm_driver robot_ip:=<robot_ip_address>
+> rosrun tm_driver tm_driver <robot_ip_address>
 >```
-> Example :``rosrun tm_driver tm_driver robot_ip:=192.168.10.2``, if the <robot_ip_address> is 192.168.10.2
+> Example :``rosrun tm_driver tm_driver 192.168.10.2``, if the <robot_ip_address> is 192.168.10.2
 >
-> Now, the user can use a new terminal to run each ROS node or command but don't forget to source the correct setup shell files as starting a new terminal.
+> Now, the user can use a new terminal to run each ROS node or command, but don't forget to source the correct setup shell files as starting a new terminal.
 
 > __Usage with MoveIt__ 
 >
@@ -185,7 +260,7 @@ The user can manually click the `Data Table Setting` <sup>2</sup> item and check
 > ```bash
 > roslaunch tm5x-900-moveit_config tm5x-900_moveit_planning_execution.launch sim:=True
 > ```
-> :bookmark_tabs: Note1: There are several built-in TM Robot nominal robot model settings, available for tm5-900, tm5-700, tm12, and tm14 models, as well as the eyeless models tm5x-900, tm5x-700, tm12x and tm14x models.<br/>
+> :bookmark_tabs: Note1: There are several built-in TM Robot nominal robot model settings, available for tm5-900, tm5-700, tm12 and tm14 models, as well as the eyeless models tm5x-900, tm5x-700, tm12x and tm14x models.<br/>
 > <br/>
 >
 > The user can also manipulate real TM5-900 Robot (Example: TM5-900) to run, by typing<br/>
@@ -204,7 +279,7 @@ The user can manually click the `Data Table Setting` <sup>2</sup> item and check
 > The parameter `<robot_ip_address>` means the IP address of the TM Robot.<br/>
 > :bookmark_tabs: Note2: If your real Robot is a TM12, in the above example, you should type "tm12-moveit_config" to instead of "tm5-900-moveit_config" and type "tm12_moveit_planning_execution.launch" to instead of "tm5-900_moveit_planning_execution.launch".<br/>
 > :bookmark_tabs: Note3: If your real Robot is the eyeless model as a TM12X, in the above example, you should type "tm12x-moveit_config" to instead of "tm5x-900-moveit_config" and type "tm12x_moveit_planning_execution.launch" to instead of "tm5x-900_moveit_planning_execution.launch".<br/>
-> :bookmark_tabs: Note4: In MoveIt planning_context.launch, TM Robot set the default is to read the Xacro file, such as _TM5-900_ model, to read the file _tm5-900.urdf.xacro_ into robot_description or such as _TM12_ model, to read the file _tm12.urdf.xacro_ into robot_description. If the user wants to use the specific model parameters instead of the nominal model to control the robot, please refer to the following section __Take generating a new Xacro file as an example__ of chapter 6 to modify the Xacro file.<br/>
+> :bookmark_tabs: Note4: In MoveIt planning_context.launch, TM Robot set the default to read the Xacro file, such as _TM5-900_ model, to read the file _tm5-900.urdf.xacro_ into robot_description or such as _TM12_ model, to read the file _tm12.urdf.xacro_ into robot_description. If the user wants to use the specific model parameters instead of the nominal model to control the robot, please refer to the following section __Take generating a new Xacro file as an example__ of chapter 6 to modify the Xacro file.<br/>
 
 > __Usage with Gazebo Simulation__ 
 >
@@ -251,7 +326,7 @@ The user can manually click the `Data Table Setting` <sup>2</sup> item and check
 > roslaunch tm_gazebo <tm_robot_type>_gazebo.launch
 > ```
 >
-> The prefix `<tm_robot_type>` means the TM Robot type, available for tm5-900, tm5-700, tm12 and tm14 models, as well as the eyeless models tm5x-900, tm5x-700, tm12x and tm14x models.<br/>
+> The prefix `<tm_robot_type>` means the TM Robot type, available for the tm5-900, tm5-700, tm12, and tm14 models, as well as the eyeless models tm5x-900, tm5x-700, tm12x, and tm14x models.<br/>
 > For the TM5-900 Robot, simply replace the prefix accordingly to tm5-900 and type "``roslaunch tm_gazebo tm5-900_gazebo.launch``".<br/>
 > :bookmark_tabs: Note1: If your real Robot is a TM12, in the above example, you should type tm12_gazebo.launch.<br/>
 > :bookmark_tabs: Note2: If the user needs to improve end-point simulation accuracy, please refer to the following section __Take generating a new Xacro file as an example__ of chapter 6 to modify the Xacro file.<br/>
@@ -317,7 +392,7 @@ The user can manually click the `Data Table Setting` <sup>2</sup> item and check
 > __Build TM ROS Vision driver node on your (remote) computer__
 >
 > Please open two terminals
-> In a new terminal 1: type Startup ROS core and type<br/>
+> Terminal 1: Startup ROS core and type<br/>
 > ``roscore``<br/>
 >
 > In a new terminal 2: Under the environment settings have been finished with your workspace`<workspace>`, then type
@@ -384,7 +459,7 @@ The user can manually click the `Data Table Setting` <sup>2</sup> item and check
 >
 > ```bash
 > source ./devel/setup.bash
-> rosrun demo demo_get_image_node
+> rosrun image_sub sub_img
 > ```
 >
 > Then, the viewer will display image data from _TMflow_.
@@ -396,7 +471,7 @@ The user can manually click the `Data Table Setting` <sup>2</sup> item and check
 > This chapter describes the _demo_ package and the code used as a C++ programming example, showing how to program robot scripts (TM Robot Expressions) through the TM ROS driver connection. <br/>
 >
 > * demo_send_script:<br/>
-In this demo code, it shows how to send a __Listen node__ script to control the TM Robot. <br/>
+In this demo code, it shows how to send a __Listen node__ script to control the TM Robot.<br/>
 The user can use a service named "send_script" to send the script.<br/>
 "id" &rarr; The transaction number expressed in any <u>alphanumeric</u> <sup>1</sup> characters.<br/> 
 "script" &rarr; the script that the user wants to send.<br/>
@@ -430,7 +505,7 @@ state &rarr;  STATE_OFF or STATE_ON value, or other value (if type expressed in 
 > <sup>4</sup> For more detailed information, please refer to _defined protocol_ (Chapter6.5 IO)<br/>
 >
 > * demo_set_positions:<br/>
-In this demo code, the user should pay attention to the parameter definition of the data format setting <sup>5</sup> and the unit of the parameter to be operated.  <br/>
+In this demo code, the user should pay attention to the parameter definition of the data format setting <sup>5</sup> and the parameter unit to be operated.  <br/>
 motion_type &rarr;  PTP_J , PTP_T , LINE_J , LINE_T , CIRC_J ,CIRC_T , PLINE_J ,PLINE_T <br/>
 positions &rarr;  motion target position: If expressed in Cartesian coordinate (unit: m), if expressed in joint angles (unit: rad)<br/>
 velocity &rarr;  motion velocity: if expressed in Cartesian coordinate (unit: m/s) <sup>6</sup>, if expressed in joint velocity (unit: rad/s, and the maximum value is limited to  &pi; )  <sup>6</sup>  <br/>
@@ -468,12 +543,12 @@ or<br/>
 ``roscore``<br/>
 > 6. In a new terminal 2: Source setup.bash in the workspace path and run the driver to connect to TM Robot by typing<br/>
 ``source ./devel/setup.bash``<br/>
-``rosrun tm_driver tm_driver robot_ip:=<robot_ip_address>``<br/>
+``rosrun tm_driver tm_driver <robot_ip_address>``<br/>
 The <robot_ip_address> is the IP address of the TM Robot, the user can get it through TM Flow, for example, 192.168.10.2<br/>
-> 7. In another new terminal: Source setup.bash in the workspace path and type specific demo node function which the user wants to study for applications. For example: the user select to run demo_set_io, the user can type<br/>
+> 7. In another new terminal: Source setup.bash in the workspace path and type the specific demo node function that the user wants to study for applications. For example: the user select to run demo_set_io, the user can type<br/>
 ``source ./devel/setup.bash``<br/>
 ``rosrun demo demo_set_io``<br/>
->:warning:[CAUTION] Some demos will let the TM Robot move, please be careful.<br/>
+> :warning:[CAUTION] Some demos will let the TM Robot move, please be careful.<br/>
 ><br/>
 
 
@@ -487,7 +562,7 @@ This chapter describes a simplified GUI for displaying tm_driver connection stat
 > * If "``Ethernet``" and "``Listen Node``" connection displays are "on", it means that ROS SvrClient and SctClient are successfully connected.<br/>
 > * If the"``Ethernet``" connection display is "off", the user should check whether the TM Robot has been started or whether the network settings are correct.<br/>
 > * If the"``Listen Node``" connection is "off", the user should check whether the task project is running.<br/>
-> :bulb: If "``Listen Node``" connection is interrupted as "``Project_Run``" is stopped, the "``Listen Node``" connection will be "off". <br/>
+> :bulb: If "``Listen Node``" connection is interrupted as "``Project_Run``" is stopped, the "``Listen Node``" connection will be "off".<br/>
 > * If both "``Ethernet``" and "``Listen Node``" connection displays  are "on", but the "``Robot_Link``" is false or "``Robot_Error``" is true; this means the robot is working abnormally, or maybe the ESTOP button was pressed or some kind of protection or error <sup>1</sup> occurred. Therefore, when the user sends a move script command at this time, it will not work.<br/> 
 > <sup>1</sup> For more detailed information, please refer to the TM Robot User Guide.<br/> 
 > * The user can use the self-developed script to read/write project data through communication protocols to control the TM Robot. If it does not work properly, the user can quickly determine whether there is a communication error code by viewing the "``Response ROS Node Status``" display.<br/>
@@ -514,7 +589,7 @@ This chapter describes a simplified GUI for displaying tm_driver connection stat
 ``roscore``<br/>
 > 6. In a new terminal 2: Source setup.bash in the workspace path and run the driver to connect to TM Robot by typing<br/>
 ``source ./devel/setup.bash``<br/>
-``rosrun tm_driver tm_driver robot_ip:=<robot_ip_address>``<br/>
+``rosrun tm_driver tm_driver <robot_ip_address>``<br/>
 The <robot_ip_address> is the IP address of the TM Robot, the user can get it through TM Flow, for example, 192.168.10.2<br/>
 > 7. In another new terminal 3: Source setup.bash in the workspace path and start GUI debug by typing<br/>
 ``source ./devel/setup.bash``<br/>
@@ -566,11 +641,11 @@ This chapter describes that the user can use a script program to extract specifi
 > source /opt/ros/noetic/setup.bash
 > cd <workspace>
 > source ./devel/setup.bash
-> rosrun tm_driver tm_driver robot_ip:=<robot_ip_address>
+> rosrun tm_driver tm_driver <robot_ip_address>
 > ```
 > The parameter `<robot_ip_address>` means the IP address of your TM Robot, the user can get it through TM Flow.<br/>
 > 
-> 3. In another new terminal 3: source setup.bash in the workspace path, change the current directory to the directory path of the python script to correct urdf, and then enter the specified command format to generate a new named URDF with arguments, for example, named user_defined.<br/>
+> 3. In another new terminal 3: source setup.bash in the workspace path, change the current directory to the directory path of the python script to get the specific kinematic parameters of your TM Robot, and then enter the specified command format to generate a new name by the <urdf_gen> argument, for example, named user_defined.<br/>
 > 
 > ```bash
 > source /opt/ros/noetic/setup.bash
@@ -580,8 +655,9 @@ This chapter describes that the user can use a script program to extract specifi
 > python3 modify_xacro.py tm5-900 user_defined
 > ```
 > When this procedure is completed, the user can find that the newly generated named robot description file has been saved, e.g."``user_defined.urdf.xacro``".<br/>
+> :bookmark_tabs: Note: In the previous chapter, we renamed the download folder tmr_ros1 (or tmr_ros1-noetic) to src. If the user misses this step, they will encounter such an error "``[Error] [modify_xacro]: workspace directory not find ``" on the screen when executing the above command.<br/>
 > 
-> 4. Next, the user must modify the filename part of the default pre-built nominal robot model in tm5-900.urdf.xacro to a newly generated robot model description naming the file.<br/>
+> 4. Next, the user must modify the filename part of the default pre-built nominal robot model in tm5-900.urdf.xacro to a newly generated robot model description naming file.<br/>
 > ```bash
 > cd src\tm_description\xacro\
 > sudo vim tm5-900.urdf.xacro
@@ -617,7 +693,7 @@ This chapter describes that the user can use a script program to extract specifi
 > source /opt/ros/noetic/setup.bash
 > cd <workspace>
 > source ./devel/setup.bash
-> rosrun tm_driver tm_driver robot_ip:=<robot_ip_address>
+> rosrun tm_driver tm_driver <robot_ip_address>
 > ```
 > The parameter `<robot_ip_address>` means the IP address of your TM Robot, the user can get it through TM Flow.<br/>
 > 
@@ -647,5 +723,5 @@ This chapter describes that the user can use a script program to extract specifi
 > Ans: The user can first find the displayed string "``[new save file path:] ``" on the screen, and the following string is the file save location.<br/>
 
 
-## __8. Contact us/Technical support__
+## __8. Contact us / Technical support__
 More Support & Service, please contact us. [@TECHMAN ROBOT](https://www.tm-robot.com/zh-hant/contact-us/)``[https://www.tm-robot.com/zh-hant/contact-us/] ``<br/>
